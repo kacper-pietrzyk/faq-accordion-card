@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  min-height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: linear-gradient(#af68ea, #7b62e4);
+
+}
+
+.wrapper {
+  // background-color: green;
+  margin: 50px 15px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  // background-color: green;
+
+  &__mainImage {
+    // position: absolute;
+  }
+
+  &__shadowImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+summary {
+  // outline: none;
+}
+
+summary::-webkit-details-marker {
+  // display: none;
+}
