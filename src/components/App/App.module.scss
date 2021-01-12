@@ -1,3 +1,5 @@
+@import '../_variables';
+
 *,
 *::before,
 *::after {
@@ -15,33 +17,35 @@ html {
 
 body {
   font-size: 1.6rem;
-  background-image: linear-gradient(#af68ea, #7b62e4);
-
+  background-image: linear-gradient($color-background-top, $color-background-bottom);
 }
 
 .wrapper {
-  // background-color: green;
-  margin: 50px 15px 10px;
-  background-color: #fff;
+  margin: 15rem 2rem 5rem;
+  padding: 0 2rem 4rem;
+  background-color: $color-white;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .images {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  // background-color: green;
+  margin-bottom: 14rem;
 
   &__mainImage {
-    // position: absolute;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    padding-right: 30px;
   }
 
   &__shadowImage {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
