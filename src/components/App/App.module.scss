@@ -16,17 +16,19 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
   background-image: linear-gradient($color-background-top, $color-background-bottom);
+  color: $color-text-primary;
+  font-family: $font-family-primary;
+  font-size: 1.6rem;
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   margin: 15rem 2rem 5rem;
   padding: 0 2rem 4rem;
   background-color: $color-white;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .images {
@@ -47,6 +49,12 @@ body {
     left: 50%;
     transform: translateX(-50%);
   }
+}
+
+.headline {
+  margin-bottom: 40px;
+  font-size: $font-size-l;
+  text-align: center;
 }
 
 summary {
