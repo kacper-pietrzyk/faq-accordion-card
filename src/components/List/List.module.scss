@@ -1,0 +1,19 @@
+@import '../_variables';
+
+.list {
+  list-style-type: none;
+  color: $color-text-secondary;
+}
+
+summary {
+  outline: none;
+  position: relative;
+}
+
+summary::-webkit-details-marker {
+  // display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transform: rotate(90deg);
+}
