@@ -26,9 +26,10 @@ body {
   display: flex;
   flex-direction: column;
   margin: 15rem 2rem 5rem;
-  padding: 0 2.6rem 4rem;
+  padding: 0 2.5rem 5rem;
   background-color: $color-white;
   border-radius: 20px;
+  box-shadow: 0 10px 20px 0 #555;
 }
 
 .images {
@@ -52,7 +53,7 @@ body {
 }
 
 .headline {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
   font-size: $font-size-l;
   text-align: center;
 }
