@@ -1,1 +1,40 @@
-@import '_variables';
+@import '../_variables';
+
+.listItem {
+
+  padding: 2rem 0;
+  border-bottom: 1px solid $color-dividers;
+
+  &__question {
+    position: relative;
+    padding-right: 2rem;
+    outline: none;
+    list-style-type: none;
+    font-size: $font-size-m;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+
+  &__details[open] .listItem__question {
+    color: $color-text-primary;
+    font-weight: 700;
+  }
+
+  &__details[open] .listItem__arrow {
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  &__answer {
+    padding-top: 1.5rem;
+    font-size: $font-size-s;
+  }
+}
