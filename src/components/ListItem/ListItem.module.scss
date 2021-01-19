@@ -2,15 +2,16 @@
 
 .listItem {
 
-  padding: 2rem 0;
+  padding: 1.6rem 0;
   border-bottom: 1px solid $color-dividers;
 
   &__question {
     position: relative;
-    padding-right: 2rem;
-    outline: none;
+    padding-right: 2.5rem;
     list-style-type: none;
     font-size: $font-size-m;
+    line-height: 2rem;
+    outline: none;
 
     &::-webkit-details-marker {
       display: none;
@@ -22,6 +23,7 @@
     top: 50%;
     right: 0;
     transform: translateY(-50%);
+    transition: .3s;
   }
 
   &__details[open] .listItem__question {
@@ -34,7 +36,15 @@
   }
 
   &__answer {
-    padding-top: 1.5rem;
+    padding: 1.5rem 2.5rem 0 0;
     font-size: $font-size-s;
+    line-height: 1.6rem;
   }
 }
+
+// desktop
+
+// .listItem__question:hover {
+//   color: $color-text-hover;
+//   cursor: pointer;
+// }
