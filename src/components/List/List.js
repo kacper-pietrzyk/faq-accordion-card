@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './List.module.scss';
 
 import ListItem from '../ListItem/ListItem';
 
 const List = () => {
 
-  const [content, setContent] = useState([]);
+  const [faq, setFaq] = useState([]);
 
-  const functionToSetContent = () => {
+  useEffect(() => {
     const url = "http://www.json-generator.com/api/json/get/bVpOOFOEky?indent=2";
     fetch(url)
       .then(response => response.json())
-      .then(result => setContent(result.faq))
+      .then(result => setFaq(result.faq))
       .catch(err => console.log(`błąd: ${err}`))
-  }
+  }, []);
 
-  const data = content.map(data => (
+  const dataList = faq.map(data => (
     <ListItem
       key={data.id}
       question={data.question}
@@ -24,9 +24,8 @@ const List = () => {
   ))
 
   return (
-    <ul className={styles.list} onMouseDown={functionToSetContent}>
-      {data}
-      <li>coś</li>
+    <ul className={styles.list}>
+      {dataList}
     </ul>
   )
 };
