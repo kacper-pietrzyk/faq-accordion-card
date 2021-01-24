@@ -8,7 +8,6 @@
   &__question {
     position: relative;
     padding-right: 2.5rem;
-    list-style-type: none;
     font-size: $font-size-m;
     line-height: 2rem;
     outline: none;
@@ -42,9 +41,10 @@
   }
 }
 
-// desktop
+@media (min-width: 1024px) {
 
-// .listItem__question:hover {
-//   color: $color-text-hover;
-//   cursor: pointer;
-// }
+  .listItem__question:hover {
+    color: $color-text-hover;
+    cursor: pointer;
+  }
+}
