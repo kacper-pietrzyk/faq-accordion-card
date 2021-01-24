@@ -33,8 +33,8 @@ const App = () => {
             src={desktopBoxImage}
             alt="box" />}
       </div>
-      <main>
-        <h1 className={styles.headline}>FAQ</h1>
+      <main className={styles.faq}>
+        <h1 className={styles.faq__headline}>FAQ</h1>
         <List />
       </main>
     </div>
