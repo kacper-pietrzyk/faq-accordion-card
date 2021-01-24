@@ -58,6 +58,13 @@ body {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .wrapper {
+    margin: 15rem 6rem 5rem;
+    padding: 0 4rem 5rem;
+  }
+}
+
 @media (min-width: 1024px) {
   .wrapper {
     flex-direction: row;
