@@ -52,8 +52,61 @@ body {
   }
 }
 
-.headline {
+.faq__headline {
   margin-bottom: 2rem;
   font-size: $font-size-l;
   text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10rem 6rem 5rem;
+    padding: 7rem 6rem 7rem 0;
+    overflow: hidden;
+  }
+
+  .images {
+    flex-grow: 1;
+    margin-bottom: 0;
+
+    &__mainImage {
+      top: 50%;
+      left: 0;
+      transform: translate(-80px, -50%);
+      padding-right: 0px;
+      z-index: 9;
+    }
+
+    &__shadowImage {
+      top: 50%;
+      left: 0;
+      transform: translate(-570px, -58%);
+    }
+
+    &__boxImage {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-125px, -25%);
+      z-index: 9;
+    }
+  }
+
+  .faq {
+    flex-basis: 45%;
+
+    &__headline {
+      text-align: left;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    margin: 10rem 20rem 5rem;
+    padding: 7rem 10rem 7rem 0;
+    overflow: visible;
+  }
 }
