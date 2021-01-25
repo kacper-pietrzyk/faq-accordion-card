@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/faq-accordion-card/static/css/main.b3d3cac2.chunk.css",
+    "main.js": "/faq-accordion-card/static/js/main.3260904b.chunk.js",
+    "main.js.map": "/faq-accordion-card/static/js/main.3260904b.chunk.js.map",
+    "runtime-main.js": "/faq-accordion-card/static/js/runtime-main.e8b812d6.js",
+    "runtime-main.js.map": "/faq-accordion-card/static/js/runtime-main.e8b812d6.js.map",
+    "static/js/2.a55377cc.chunk.js": "/faq-accordion-card/static/js/2.a55377cc.chunk.js",
+    "static/js/2.a55377cc.chunk.js.map": "/faq-accordion-card/static/js/2.a55377cc.chunk.js.map",
+    "static/js/3.62bb2900.chunk.js": "/faq-accordion-card/static/js/3.62bb2900.chunk.js",
+    "static/js/3.62bb2900.chunk.js.map": "/faq-accordion-card/static/js/3.62bb2900.chunk.js.map",
+    "index.html": "/faq-accordion-card/index.html",
+    "static/css/main.b3d3cac2.chunk.css.map": "/faq-accordion-card/static/css/main.b3d3cac2.chunk.css.map",
+    "static/js/2.a55377cc.chunk.js.LICENSE.txt": "/faq-accordion-card/static/js/2.a55377cc.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern-desktop.f51e07a2.svg": "/faq-accordion-card/static/media/bg-pattern-desktop.f51e07a2.svg",
+    "static/media/bg-pattern-mobile.55aee912.svg": "/faq-accordion-card/static/media/bg-pattern-mobile.55aee912.svg",
+    "static/media/icon-arrow-down.852fa301.svg": "/faq-accordion-card/static/media/icon-arrow-down.852fa301.svg",
+    "static/media/illustration-box-desktop.ec1ba14b.svg": "/faq-accordion-card/static/media/illustration-box-desktop.ec1ba14b.svg",
+    "static/media/illustration-woman-online-desktop.843eb114.svg": "/faq-accordion-card/static/media/illustration-woman-online-desktop.843eb114.svg",
+    "static/media/illustration-woman-online-mobile.0ec5a893.svg": "/faq-accordion-card/static/media/illustration-woman-online-mobile.0ec5a893.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8b812d6.js",
+    "static/js/2.a55377cc.chunk.js",
+    "static/css/main.b3d3cac2.chunk.css",
+    "static/js/main.3260904b.chunk.js"
+  ]
+}
