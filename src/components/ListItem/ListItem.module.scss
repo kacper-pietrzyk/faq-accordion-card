@@ -41,7 +41,7 @@
   }
 }
 
-@media screen {
+@media (min-width: 1024px) {
 
   .listItem__question:hover {
     color: $color-text-hover;
