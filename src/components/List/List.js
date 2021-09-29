@@ -10,7 +10,9 @@ const List = () => {
   useEffect(() => {
     const url = "https://api.json-generator.com/templates/W5spbkRAVOIp/data?access_token=i9i2ump0kzrk14xfg6h7gwvxseudmbpscyfeh6qh";
     // const url = "https://api.json-generator.com/templates/W5spbkRAVOIp/data";
-    fetch(url)
+    fetch(url, {
+      mode: "no-cors",
+    })
       .then(response => response.json())
       .then(result => setFaq(result.faq))
       .catch(err => console.log(`błąd: ${err}`))
