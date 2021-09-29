@@ -6,9 +6,6 @@ Page with frequently asked questions, which could be one of subpages. Questions 
 * CSS (SCSS) Modules
 * React
 * React Hooks
-## Usage
-Page can be run here: \
-https://kacper-pietrzyk.github.io/faq-accordion-card/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
