@@ -9,6 +9,7 @@ const List = () => {
 
   useEffect(() => {
     const url = "https://api.json-generator.com/templates/W5spbkRAVOIp/data?access_token=i9i2ump0kzrk14xfg6h7gwvxseudmbpscyfeh6qh";
+    // const url = "https://api.json-generator.com/templates/W5spbkRAVOIp/data";
     fetch(url)
       .then(response => response.json())
       .then(result => setFaq(result.faq))
