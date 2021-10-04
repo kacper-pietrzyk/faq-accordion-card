@@ -8,8 +8,8 @@ const List = () => {
   const [faq, setFaq] = useState([]);
 
   useEffect(() => {
-    // const url = "https://glacial-anchorage-04547.herokuapp.com/https://api.json-generator.com/templates/W5spbkRAVOIp/data?access_token=i9i2ump0kzrk14xfg6h7gwvxseudmbpscyfeh6qh";
-    const url = "https://glacial-anchorage-04547.herokuapp.com/https://api.json-generator.com/templates/W5spbkRAVOIp/data";
+    const url = "https://polar-atoll-58448.herokuapp.com/https://api.json-generator.com/templates/W5spbkRAVOIp/data?access_token=i9i2ump0kzrk14xfg6h7gwvxseudmbpscyfeh6qh";
+    // const url = "https://glacial-anchorage-04547.herokuapp.com/https://api.json-generator.com/templates/W5spbkRAVOIp/data";
     fetch(url, {
       mode: 'cors',
       headers: {
