@@ -8,7 +8,7 @@ const List = () => {
   const [faq, setFaq] = useState([]);
 
   useEffect(() => {
-    const url = "https://next.json-generator.com/api/json/get/N16qFbOJ5";
+    const url = "https://api.json-generator.com/templates/Z4QpUYmz4r9Q/data?access_token=i9i2ump0kzrk14xfg6h7gwvxseudmbpscyfeh6qh";
     fetch(url)
       .then(response => response.json())
       .then(result => setFaq(result.faq))
